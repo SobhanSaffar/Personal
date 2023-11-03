@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sobhan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="Css/style.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body style="background-image: url(img/XeR6gnH.gif);">
+
+<!-- اسلاید بار مخفی -->
+<nav   class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px;background-color: rgb(159, 114, 189);" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu❌</a>
+  <a href="#game" onclick="w3_close()" class="w3-bar-item w3-button">Games🎮</a>
+  <!--
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About👩🏻‍💻</a>
+  -->
+  <a href="../" onclick="w3_close()" class="w3-bar-item w3-button">Home🙌🏻</a>
+</nav>
+
+<!-- منو بالا -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto;">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"> <a style="text-decoration: none;" href="../">Home🏠 </a> </div>
+    <div class="w3-center w3-padding-16">🎮My Favorite Games🎮</div>
+  </div>
+</div>
+  
+<!-- محتوا کامل -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- لیست اول-->
+  <div style="background-color: rgb(136, 133, 129);box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);" class="w3-row-padding w3-padding-16 w3-center" id="game">
+    <div class="w3-quarter">
+      <img  src="img/MV5BYjEzMTM4ZmQtZTEzYS00ZGVmLTkwM2EtNWNmMDI4OWQ0MjBmXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg" alt="Sandwich" style="width:98%;box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);">
+      <h3> Grand Theft Auto V</h3>
+      <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games.</p>
+    </div>
+
+    <div class="w3-quarter">
+      <img src="img/MX5311-Valorant.jpg" alt="Steak" style="width:100%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);">
+      <h3>Valorant</h3>
+      <p>Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Windows.</p>
+    </div>
+
+    <div class="w3-quarter">
+      <img src="img/Counter-Strike_Source_(box_art).jpg" alt="Cherries" style="width:98%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);">
+      <h3>Counter-Strike: Source</h3>
+      <p>Counter-Strike: Source is a tactical first-person shooter video game developed by Valve and Turtle Rock Studios.</p>
+      
+    </div>
+
+    <div class="w3-quarter">
+      <img src="img/Untitled-2.png" alt="Pasta and Wine" style="width:100%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);  ">
+      <h3>Dinosaur Game</h3>
+      <p>The Dinosaur Game (also known as the Chrome Dino) is a browser game developed by Google and built into the Google Chrome web browser.</p>
+    </div>
+  </div>
+  
+  <!-- لیست دوم-->
+  <div style="background-color: rgb(136, 133, 129);box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);" class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="img/Advanced_Warfare.jpg" alt="Popsicle" style="width:100%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);">
+      <h3>Call of Duty: Advanced Warfare</h3>
+      <p>Call of Duty: Advanced Warfare is a 2014 first-person shooter video game published by Activision.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/Far-Cry-3.jpg" alt="Salmon" style="width:98%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);">
+      <h3>Far Cry 3</h3>
+      <p>Far Cry 3 is a 2012 first-person shooter game developed by Ubisoft Montreal and published by Ubisoft.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/MC_One-Vanilla_285x380px-1.jpg" alt="Sandwich" style="width:103%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);">
+      <h3>Minecraft</h3>
+      <p>Minecraft is a sandbox game developed by Mojang Studios and originally released in 2009.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/rob.jpg" alt="Croissant" style="width:105%;box-shadow: 5px 6px 11px 4px rgba(0,0,0,0.75);">
+      <h3>Roblox</h3>
+      <p>Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to program games and play games created by other users.</p>
+    </div>
+  </div>
+
+  <!-- شمارش صفحه -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <!--
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      -->
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  <!--خط صاف-->
+  <hr id="about">
+
+  <!-- درباره 
+  <div style="background-color: rgb(206, 100, 62);" class="w3-container w3-padding-32 w3-center">  
+    <h3>💢About Me💢</h3><br>
+    <img src="img/x11.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="200" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>I'm so funny, I know😁👍🏻</i></h6>
+      <p>My name is Sobhan Safar, currently in the 11th grade of network and software and interested in computer games.
+        <p style="font-size: larger;">🟡My <a style="text-decoration: none;" href="website/Sobhan site.html" target="_blank">Website🟡</a></p>
+        <p>Click☝🏻</p>
+      </p>
+    </div>
+  </div>
+  -->
+  
+  
+  <!-- فوتر 
+  <footer style="background-color: rgb(255, 255, 255);" class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>My fav games.</p>
+      <p>Powered by <a href="index.html" target="_blank">sobahn</a></p>
+    </div>
+    
+  
+    <div class="w3-third w3-serif">
+      <h3>Connect me📞:0903xxxxxx</h3>
+ 
+  </footer>
+
+
+</div>
+-->
+<script>
+// باز و بست اسلایدر منو
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
