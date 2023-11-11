@@ -180,8 +180,9 @@ textarea {
 /* End extract */
 html,
 body {
-  font-family: Verdana, sans-serif;
-  font-size: 15px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 12px;
+  
   line-height: 1.5;
 }
 html {
@@ -223,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: 'Mochiy Pop One', sans-serif;
   font-weight: 400;
   margin: 10px 0;
 }
