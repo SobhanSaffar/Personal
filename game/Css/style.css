@@ -180,7 +180,7 @@ textarea {
 /* End extract */
 html,
 body {
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 12px;
   
   line-height: 1.5;
@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   font-weight: 400;
   margin: 10px 0;
 }
