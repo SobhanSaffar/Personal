@@ -1117,23 +1117,48 @@ input[type="text"] {
   opacity: 0
   
 }
-
+/*display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  background: #27272c; */
+  particle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .btnhit{
+    padding: 20px;
+    margin: 10px;
+    align-self: center;
+  }
 
 
 
 
 .h1lang{
-  font-size: 50px;
-  margin-left: 2%;
+  font-size: 40px;
+  background: #252839;
+  text-align: center;
+
+
   
 }
 
 .langlearn{
+  margin-top: -3%;
   font-family: 'Mochiy Pop One', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 75vh;
+  min-width: 60vh;
   background: #252839;
 
 }
@@ -1154,6 +1179,7 @@ input[type="text"] {
   line-height: 1em;
   text-transform: uppercase;
   color: transparent;
+  
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 }
 .ulx .lix a::before {
