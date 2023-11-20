@@ -218,8 +218,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: rgb(53, 49, 49);
-}
+  background: rgb(53,49,49);
+  background: linear-gradient(180deg, rgba(53,49,49,1) 43%, rgba(82,74,74,1) 77%, rgba(115,95,95,1) 95%); }
 #fh5co-features h2 {
   color: #fff;
 }
@@ -1144,7 +1144,8 @@ input[type="text"] {
 
 .h1lang{
   font-size: 40px;
-  background: #252839;
+  background: rgb(37,40,57);
+  background: linear-gradient(90deg, rgba(37,40,57,1) 20%, rgba(8,4,70,1) 77%); 
   text-align: center;
 
 
@@ -1159,8 +1160,8 @@ input[type="text"] {
   align-items: center;
   min-height: 75vh;
   min-width: 60vh;
-  background: #252839;
-
+  background: rgb(37,40,57);
+  background: linear-gradient(90deg, rgba(37,40,57,1) 20%, rgba(8,4,70,1) 77%); 
 }
 .ulx {
   position: relative;
