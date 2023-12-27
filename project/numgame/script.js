@@ -47,7 +47,7 @@ checkButton.addEventListener("click", () => {
   // اتمام شانس
   if (chance == 0) {
     [checkButton.textContent, input.disabled, inputValue] = ["مجدد", true, ""];
-    [guess.textContent, guess.style.color] = ["😞 متاسفم باختی ", "#DE0611"];
+    [guess.textContent, guess.style.color] = ["😞 متاسفم باختی "+"("+randomNum+")", "#DE0611"];
   }
   if (chance < 0) {
     window.location.reload();
