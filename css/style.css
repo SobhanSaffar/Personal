@@ -1161,8 +1161,7 @@ input[type="text"] {
   min-height: 75vh;
   min-width: 60vh;
   background: rgb(37,40,57);
-  background: linear-gradient(90deg, rgba(37,40,57,1) 20%, rgba(8,4,70,1) 77%); 
-}
+  background: rgb(44, 39, 39);}
 .ulx {
   position: relative;
   display: flex;
@@ -1174,7 +1173,7 @@ input[type="text"] {
   list-style: none;
 }
 .ulx .lix a {
-  font-size: 4em;
+  font-size: 3.5em;
   text-decoration: none;
   letter-spacing: 2px;
   line-height: 1em;
